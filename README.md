@@ -14,7 +14,7 @@ The system tracks device profiles, maps login behaviors, logs anomalies, and app
 **Session Management:** Secure server-side validation models equipped with a 30-minute inactivity expiration window.
 **Device Fingerprinting:** Dynamically extracts and aggregates Browser, OS metadata, User-Agent strings, and platform specifications into a secure identifier string to isolate foreign hardware acces.
 
-### 🤖 Artificial Intelligence Integration (OpenAI API)
+### Artificial Intelligence Integration (OpenAI API)
 **Real-Time Threat Classification:** Sends comprehensive metadata metrics to OpenAI's models (`gpt-4o-mini`) to categorize threats into **LOW, MEDIUM, HIGH, or CRITICAL** parameters.
 **Anomaly Detection:** Tracks access patterns to isolate irregular login times (e.g., midnight to 6 AM) or geographic shifts.
 **Countermeasure Generation:** Generates actionable, context-aware remediation logs and recommendations directly onto the interface dashboards.
